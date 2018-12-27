@@ -1,0 +1,12 @@
+{
+  "servers": {
+    "local": {
+      "url": "mqtt://localhost:1883",
+      "port": 1883
+    },
+    "mosquitto": {
+      "url": "mqtt://test.mosquitto.org"
+    }
+  },
+  "topic": "/some/interesting/topic/to/survey"
+}
