@@ -12,6 +12,11 @@ var ascoltatore = {
 var settings = {
     port: Constants.servers.local.port,
 //    backend: ascoltatore
+    interfaces: [
+        { type: "mqtt", port: 1883 },
+        { type: "http", port: 3000, bundle: true, static: './' } // to enable websocket (used by browsers)
+    ],
+
 };
 
 var server = new mosca.Server(settings);
