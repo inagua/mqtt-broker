@@ -6,7 +6,7 @@ const message = process.argv[2] || `Hello mqtt from PLO at ${new Date()}`;
 
 client.on('connect', function () {
     // console.log('>> Connected');
-    client.publish(Constants.topic, message, function () {
+    client.publish(Constants.topics.goldeneye.infrastructure.root, message, function () {
         console.log('>> Published');
         client.end();
     })

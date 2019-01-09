@@ -8,5 +8,14 @@
       "url": "mqtt://test.mosquitto.org"
     }
   },
-  "topic": "/some/interesting/topic/to/survey"
+  "topics": {
+    "fake": "/some/interesting/topic/to/survey",
+    "goldeneye": {
+      "all": "/goldeneye/#",
+      "infrastructure": {
+        "root": "/goldeneye/infrastructure",
+        "all": "/goldeneye/infrastructure/#"
+      }
+    }
+  }
 }
