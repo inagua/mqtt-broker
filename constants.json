@@ -2,6 +2,7 @@
   "servers": {
     "local": {
       "url": "mqtt://localhost:1883",
+      "url_": "mqtt://test.mosquitto.org:1883",
       "port": 1883
     },
     "mosquitto": {

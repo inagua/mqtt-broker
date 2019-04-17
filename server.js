@@ -14,7 +14,7 @@ var settings = {
 //    backend: ascoltatore
     interfaces: [
         { type: "mqtt", port: 1883 },
-        { type: "http", port: 3000, bundle: true, static: './' } // to enable websocket (used by browsers)
+        { type: "http", port: 2999, bundle: true, static: './' } // to enable websocket (used by browsers)
     ],
 
 };

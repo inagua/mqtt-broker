@@ -29,3 +29,11 @@ Launch the publisher:
 ```
 node publish.js "Hy jack!"
 ```
+
+## IEM
+
+IEM webservices use [AWS SNS Topics](https://eu-west-3.console.aws.amazon.com/sns/v3/home?region=eu-west-3#/topics)
+
+## Resources
+
+- Online test server: https://test.mosquitto.org/
